@@ -1,25 +1,13 @@
-// Arro functions 
-function divide (){
-  let a = 2000
-  let b = 100
+// Arrow functions 
+function divide (a,b){ // normal function. 
   return a/b 
 }
-divide(); 
+divide(2000, 100); 
 
-/* Arrow function 
-// function squares(x){
-//   let x =2 
-//   return x * x ; 
- }*/
-
-
+// arrow function. with one parameter no need of a parenthis or a return word 
 const square = x =>x*x ; 
-let x = 2; 
-square(); 
+square(2); 
 
-// Arrow add 
-const add= (a,b) => a +b ; 
- let a = 3
- let b = 4
-
-add(); 
+// Arrow add with two parameter in a parenthis
+const add= (a,b) => a + b ; // two parenthis
+add(3,4); 
